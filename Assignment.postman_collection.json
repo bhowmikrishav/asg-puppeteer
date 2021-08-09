@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "5e7e2491-ace3-49af-94ef-3dd4fe5be562",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/hello",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=6247485&Sku=8099910\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "example 1",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"url\": \"https://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=6247485&Sku=8099910\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Aug 2021 13:54:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"header\": \"Out standing\",\n        \"para\": \"This is the second set I have bought. They are very good. Good for music and ET all.\"\n    },\n    {\n        \"header\": \"A good deal\",\n        \"para\": \"Great price, but you get what you pay for.\\nIdeal gift for the kids. What do they care, it's just noise to them.\"\n    },\n    {\n        \"header\": \"computer speakers\",\n        \"para\": \"I do not use my computer speakers to play music, however, I do listen to the songs I am burning to a disk.  The speakers are ideal for the price and remember to make the right to left volume change in your audio section of the computer.\"\n    },\n    {\n        \"header\": \"AWESOME\",\n        \"para\": \"My Daughter loves them.\"\n    },\n    {\n        \"header\": \"Just the ticket\",\n        \"para\": \"Look good, sound good. I've had several pairs of speakers over the years that cost way more and didn't sound anywhere as nice. Perfect for everyday use. A base adjustment knob would be nice, but can always use the equalizer.\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
