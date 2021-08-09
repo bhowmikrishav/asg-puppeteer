@@ -1,4 +1,4 @@
-### API based Puppeteer implmentation to crawl tigerdirect.com review
+### API based Puppeteer implmentation to crawl tigerdirect.com customer reviews
 
 **By, Rishav Bhowmik**
 
